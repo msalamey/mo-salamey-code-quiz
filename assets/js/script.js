@@ -1,4 +1,4 @@
-// Create variables (arrays) that contain the questions, choices, and answers from the mock up provided. 
+// Create variables/arrays that contain the questions, choices, and answers from the mock up provided. 
 var questions = [
     {
         question: "Commonly used data types DO NOT include:",
@@ -43,7 +43,7 @@ var timer = 0;
 var wrongAnswer = 10;
 
 // Varabile for the list function. 
-var createList = document.createElement("ul");
+var createList = document.createElement("ol");
 
 // Timer function to display on screen and count down. 
 startGame.addEventListener("click", function() {
@@ -85,7 +85,7 @@ function render(questionNumber) {
 // Function that confirms if the correct answer was selected. Message will state if correct or incorrect 
 // and provide the right answer. Once all questions are answered the total is tallied and displayed. 
 function compareAnswer(e) {
-    var selection = e.target;
+    var selection = e.target; 
     
     if (selection.matches("li")) {
         var createDiv = document.createElement("div");

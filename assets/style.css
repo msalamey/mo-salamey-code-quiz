@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif; 
+    font-family: sans-serif;
 }
 
 #card {
@@ -12,7 +12,7 @@
     width: 60%;
     height: 80%;
     border: 3px solid black;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 #start-button {
@@ -41,6 +41,7 @@ a {
 
 #quiz-question {
     font-size: larger;
+    font-weight: bold;
 }
 
 li:hover {
@@ -54,6 +55,8 @@ li {
     padding: 5px;
     color: white;
     background-color: rgb(63, 0, 105);
+    font-size: 90%;
+    
 }
 
 #back-button {
