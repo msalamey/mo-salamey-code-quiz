@@ -43,7 +43,7 @@ var timer = 0;
 var wrongAnswer = 10;
 
 // Varabile for the list function. 
-var createList = document.createElement("ol");
+var createList = document.createElement("ul");
 
 // Timer function to display on screen and count down. 
 startGame.addEventListener("click", function() {
@@ -108,6 +108,7 @@ function compareAnswer(e) {
     }
     quizQuestion.appendChild(createDiv);
 }
+
 
 // Game over function that clears content and allows to start over. 
 function gameOver() {

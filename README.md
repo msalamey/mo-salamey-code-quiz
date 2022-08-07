@@ -4,7 +4,7 @@ In this assignment I created a website for a timed quiz using JavaScript fundame
 
 ## Actions taken:
 * Utilized JavaScript to create variables and arrays for those variables. The data contained in the variables with questions, choices and answers.  
-* Utilized functions to the questions, choices and for selecting the correct answers; as well as for the timer. 
+* Utilized functions to the questions, choices, and for selecting the correct answers; as well as for the timer. 
 * Utilized "if/else" for the choice selection against the correct answer. 
 * Utilized additional variables and the event listener to respond to "clicks." 
 * Utilized the "stringify" method for storing and pulling high scores and initials. 
