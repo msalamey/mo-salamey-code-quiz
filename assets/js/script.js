@@ -42,7 +42,7 @@ var startingTime = 75;
 var timer = 0;
 var wrongAnswer = 10;
 
-// Varabile for the list function. 
+// Varabile for creating an element not currently in existing HTML. 
 var createList = document.createElement("ul");
 
 // Timer function to display on screen and count down. 
@@ -64,7 +64,6 @@ startGame.addEventListener("click", function() {
 
 // Function for questions, answers and choices: 
 function render(questionNumber) {
-    questionNumber.innerHTML = "";
     createList.innerHTML = "";
     
     for (var i = 0; i < questions.length; i++) {
@@ -84,15 +83,17 @@ function render(questionNumber) {
 
 // Function that confirms if the correct answer was selected. Message will state if correct or incorrect 
 // and provide the right answer. Once all questions are answered the total is tallied and displayed. 
-function compareAnswer(e) {
-    var selection = e.target; 
+function compareAnswer(event) {
+    var selection = event.target; 
     
     if (selection.matches("li")) {
         var createDiv = document.createElement("div");
         createDiv.setAttribute("id", "createDiv");
+
         if (selection.textContent == questions[questionNumber].answer) {
             currentScore++;
             createDiv.textContent = questions[questionNumber].answer + " is correct!";
+
         } else {
             startingTime = startingTime - wrongAnswer;
             createDiv.textContent = "That is incorrect, the answer is: " + questions[questionNumber].answer;
@@ -103,6 +104,7 @@ function compareAnswer(e) {
     if (questionNumber >= questions.length) {
         createDiv.textContent = "Game Over! You correctly answered " + currentScore + "/" + questions.length + " questions";
         gameOver();
+        
     } else {
         render(questionNumber);
     }
