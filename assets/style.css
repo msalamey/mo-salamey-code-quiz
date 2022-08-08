@@ -24,7 +24,6 @@
     padding: 10px;
 }
 
-
 #time-left {
     position: absolute;
     top: 25px;
@@ -50,13 +49,13 @@ li:hover {
 }
 
 li {
+    width: 50%;
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
     color: white;
     background-color: rgb(63, 0, 105);
-    font-size: 90%;
-    
+    font-size: 90%;   
 }
 
 #back-button {
@@ -71,4 +70,8 @@ li {
     color: white;
     background-color: rgb(63, 0, 105);
     border-radius: 5px;
+}
+
+#createDiv {
+    color: gray
 }
