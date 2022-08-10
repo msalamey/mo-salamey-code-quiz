@@ -7,7 +7,7 @@ var questions = [
     },
     {
         question: "Fadel's primary job functions at GM include:",
-        choices: ["1. Quality control assurance and line production", "2. Director of the Accounting and Fiance Department", "3. 'Assistant' to the Regional Manager", "4. Full job details are not known, but he spends quite a bit of time under his boss's deck and has knee pads in his briefcase"],
+        choices: ["1. Quality control assurance and line production", "2. Director of the Accounting and Fiance Department", "3. 'Assistant' to the Regional Manager", "4. Full job details are not known, but he spends quite a bit of time under his boss's desk and has knee pads in his briefcase"],
         answer: "4. Full job details are not known, but he spends quite a bit of time under his boss's deck and has knee pads in his briefcase"
     },
     {
