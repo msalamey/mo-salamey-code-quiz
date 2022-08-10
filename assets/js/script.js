@@ -1,29 +1,29 @@
 // Create variables/arrays that contain the questions, choices, and answers from the mock up provided. 
 var questions = [
     {
-        question: "Commonly used data types DO NOT include:",
-        choices: ["1. strings", "2. booleans", "3. alerts", "4. numbers"],
-        answer: "3. alerts"
+        question: "The biggest WAB in our group chat is:",
+        choices: ["1. Nadir", "2. Fadel", "3. Ali", "4. Steve"],
+        answer: "2. Fadel"
     },
     {
-        question: "The condition in an if/else statement is enclosed with ________.",
-        choices: ["1. quotes", "2. curly brackets", "3. parenthesis", "4. square brackets"],
-        answer: "3. parenthesis"
+        question: "Fadel's primary job functions at GM include:",
+        choices: ["1. Quality control assurance and line production", "2. Director of the Accounting and Fiance Department", "3. 'Assistant' to the Regional Manager", "4. Full job details are not known, but he spends quite a bit of time under his boss's deck and has knee pads in his briefcase"],
+        answer: "4. Full job details are not known, but he spends quite a bit of time under his boss's deck and has knee pads in his briefcase"
     },
     {
-        question: "Arrays in JavaScript can be used to store _______.",
-        choices: ["1. numbers and strings", "2. other arrays", "3. booleans", "4. all of the above"],
-        answer: "4. all of the above"
+        question: "Fadel would consider himself to be a member of the _______ political party.",
+        choices: ["1. Democratic", "2. Republican", "3. Trump's nut sack admiration committee", "4. Liberal left-wing brainwashed cult"],
+        answer: "3. Trump's nut sack admiration committee"
     },
     {
-        question: "String values must be enclosed within ______ when being assigned to variables.",
-        choices: ["1. commas", "2. curly brackets", "3. quotes", "4. parenthesis"],
-        answer: "3. quotes"
+        question: "When Fadel has a complaint with a purchase transaction, he takes the following action(s):",
+        choices: ["1. Turns into a Brandon (male version of a Karen) and requests to speak with the manager", "2. Goes on the company's website to file a formal complaint", "3. Doesn't leave the store until he receives a store credit to be 'compenstated' for the inconvenience", "4. All of the above"],
+        answer: "4. All of the above"
     },
     {
-        question: "A very useful tool used during development and debugging for printing content to the debugger is:",
-        choices: ["1. JavaScript", "2. terminal/bash", "3. for loops", "4. console.log"],
-        answer: "4. console.log"
+        question: "Fadel's biggest secret that he doesn't want anyone to know about is:",
+        choices: ["1. He'secretly in love with Joe Biden and 'Sleepy Joe' is actually a nick name Fadel has for him when he dreams about being in the bedroom with him", "2. He sleeps with a doll made out of Trump's hair", "3. He's actual a Jew disguised as a Muslim", "4. He loves trolling to get a reaction out of us"],
+        answer: "1. He'secretly in love with Joe Biden and 'Sleepy Joe' is actually a nick name Fadel has for him when he dreams about being in the bedroom with him"
     },
 ];
 
